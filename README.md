@@ -16,11 +16,23 @@ optimizer: Adam
 num_epochs: 20  
 
 ## Usage  
-python version == 3.10
+python version == 3.10  
+train
 ```bash
 pip install requirements.txt
 python train.py
 ```
+test  
+train
+```bash
+python test.py
+```
+테스트 실행시 test_output 폴더에 저장  
+tensorboard
+```bash
+tensorboard --logdir=logs
+```
+
 ## Results  
 ### input  
 ![apple](https://github.com/pincesslucy/unet-boundary-detection/assets/98650288/28be0d27-1915-41da-a658-a3cc4d4d4db6)
