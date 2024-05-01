@@ -17,18 +17,17 @@ num_epochs: 20
 
 ## Usage  
 python version == 3.10  
-train
+- train
 ```bash
 pip install requirements.txt
 python train.py
 ```
-test  
-train
+- test  
 ```bash
 python test.py
 ```
 테스트 실행시 test_output 폴더에 저장  
-tensorboard
+- tensorboard
 ```bash
 tensorboard --logdir=logs
 ```
